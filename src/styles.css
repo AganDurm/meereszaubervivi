@@ -1,1 +1,48 @@
 /* You can add global styles to this file, and also import other style files */
+@import url(https://fonts.googleapis.com/css?family=Sniglet|Raleway:900);
+
+:root {
+    font-size: 16px;
+    outline: none;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+
+    --header-icons-size: 70px;
+    --footer-height: 30vh;
+
+    --color-dust: #AF540B;
+    --sand-main: #FCEEB5;
+    --green-main: #A2CCB6;
+    --sand: #e7c57b;
+    --sky: #c0e0de;
+    --water: #9bd0c9;
+    --sun-color: #fdc23e;
+    --cool: #F90;
+}
+
+h1 {
+    font-weight: normal;
+    font-family: 'Raleway', sans-serif;
+    color: #f90;
+    margin-top: 8%;
+    margin-left: 15%;
+}
+
+h2 {
+    margin-top: 5%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+
+hr {
+    border: none;
+    width: 70%;
+    height: 50px;
+    padding-top: 2rem;
+    border-bottom: 1px solid transparent;
+    box-shadow: 0 20px 20px -20px transparent;
+    margin: -50px auto 10px;
+}

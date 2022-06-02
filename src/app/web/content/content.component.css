@@ -1,0 +1,15 @@
+.content-wrapper {
+    position: relative;
+    height: auto;
+    padding: 0 0 5rem 0;
+}
+
+.image-wrapper {
+    width: 70%;
+    height: 400px;
+    margin-top: 5%;
+    margin-left: 15%;
+    background: url('src/assets/img/menu/placeholder.png') no-repeat center/cover;
+    padding: 2rem 0;
+    border-radius: 1rem;
+}
