@@ -10,6 +10,13 @@ import {PlaneComponent} from './cool/plane/plane.component';
 import {CloudsComponent} from './cool/clouds/clouds.component';
 import {PreFooterComponent} from './web/pre-footer/pre-footer.component';
 import {ContentComponent} from './web/content/content.component';
+import {BubbleComponent} from './cool/bubble/bubble.component';
+import {LottieModule} from 'ngx-lottie';
+
+export function playerFactory() {
+  //return player;
+  return import(/* webpackChunkName: 'lottie-web' */ "lottie-web");
+}
 
 @NgModule({
   declarations: [
@@ -20,10 +27,12 @@ import {ContentComponent} from './web/content/content.component';
     PlaneComponent,
     CloudsComponent,
     PreFooterComponent,
-    ContentComponent
+    ContentComponent,
+    BubbleComponent
   ],
   imports: [
     BrowserModule,
+    LottieModule.forRoot({player: playerFactory}),
     AppRoutingModule
   ],
   providers: [],

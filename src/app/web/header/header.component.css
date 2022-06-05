@@ -4,6 +4,7 @@ header {
     width: 90vw;
     margin: 0 auto;
     display: flex;
+    z-index: 9999;
     justify-content: space-around;
     align-items: center;
     height: calc(var(--header-icons-size) + 20px);
@@ -13,15 +14,15 @@ header .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('src/assets/img/menu/placeholder.png') no-repeat center/cover;
+    background: url('src/assets/img/logo/logo.PNG') no-repeat center/cover;
     opacity: .8;
-    width: 350px;
+    width: 25%;
     height: calc(var(--header-icons-size) + 20px);
     border-radius: .4rem;
 }
 
 header .menu {
-    width: 25%;
+    width: 30%;
     height: var(--header-icons-size);
     display: flex;
     align-items: center;
@@ -48,7 +49,6 @@ header .menu a div {
     position: absolute;
     width: var(--header-icons-size);
     height: var(--header-icons-size);
-    background: #fff url("src/assets/img/menu/placeholder.png") no-repeat center/cover;
     border-radius: 50%;
     display: flex;
     justify-content: center;
@@ -56,14 +56,39 @@ header .menu a div {
     transition: all 600ms linear;
 }
 
+header .menu a div.crew {
+    background: transparent url("http://vignette2.wikia.nocookie.net/spongebob/images/3/33/Patrick_Star.svg/revision/latest?cb=20100724183918") no-repeat center/60%;
+}
+
+header .menu a div.parent {
+    background: transparent url("https://www.pngplay.com/wp-content/uploads/2/Spongebob-Squarepants-Free-PNG.png") no-repeat center/90%;
+}
+
+header .menu a div.rooms {
+    background: transparent url("https://www.clipartmax.com/png/full/48-487257_spongebobs-house-sprite-by-fnaffangamer12-on-deviantart-spongebob-house-clipart.png") no-repeat center/45%;
+}
+
+header .menu a div.price {
+    background: transparent url("src/assets/img/menu/krabby.png") no-repeat bottom/80%;
+}
+
+header .menu a div.contact {
+    background: transparent url("src/assets/img/menu/schnecke.png") no-repeat bottom/100%;
+}
+
+header .menu a div.sand {
+    background: transparent url("src/assets/img/menu/SVG_Sandy_Cheeks.svg") no-repeat bottom/85%;
+}
+
 header .menu a span {
     position: absolute;
     top: 50%;
-    height: 50%;
+    width: var(--header-icons-size);
+    height: var(--header-icons-size);
     left: 0;
     right: 0;
-    color: #fff;
-    font-size: 1rem;
+    color: var(--blue);
+    font-size: .01rem;
     transform: translateY(-50%);
     display: flex;
     align-items: center;
@@ -73,8 +98,8 @@ header .menu a span {
 }
 
 header .menu a:hover span {
-    transform: translateY(100%);
-    font-size: 1.4rem;
+    transform: translateY(30%);
+    font-size: 1.3rem;
 }
 
 header .menu a:hover div {

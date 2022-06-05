@@ -7,12 +7,17 @@ html, body {
 }
 
 body {
-    position: relative;
-    min-height: 125vh;
     height: auto;
-    color: #fff;
-    background: #bbd6d9;
-    background: radial-gradient(ellipse at center, #bbd6d9 22%, #6b9fa1 100%);
+    min-height: 100vh;
+    color: var(--blue);
+    background: #F9D199;
+    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF84E5DA', endColorstr='#FF2BA4F2');
+    background-size: 100%;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    width: 100%;
+    margin: auto;
 }
 
 .ml-md {

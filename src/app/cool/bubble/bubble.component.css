@@ -1,0 +1,64 @@
+.bubbles {
+    position: absolute;
+    bottom: 0;
+    z-index: 5;
+    right: 50px;
+    background-color: rgba(255, 255, 255, .4);
+    border-radius: 50%;
+    opacity: .50;
+    width: 20px;
+    height: 20px;
+    animation: up 4s infinite;
+}
+
+.bubble-2 {
+    left: 10%;
+    animation: up 3s infinite;
+    bottom: 45vh;
+}
+
+.bubble-3 {
+    left: 45%;
+    opacity: .30;
+    animation: up 6s infinite;
+    bottom: 15vh;
+}
+
+.bubble-4 {
+    left: 90%;
+    animation: up 7s infinite;
+    bottom: 5vh;
+}
+
+.bubble-5 {
+    left: 50%;
+    animation: up 6s infinite;
+    bottom: 25vh;
+}
+
+.bubble-6 {
+    left: 30%;
+    opacity: .30;
+    animation: up 4s infinite;
+    bottom: 10vh;
+}
+
+.bubble-7 {
+    left: 60%;
+    animation: up 5s infinite;
+    bottom: 5vh;
+}
+
+.bubble-8 {
+    left: 95%;
+    opacity: .30;
+    animation: up 4s infinite;
+    bottom: 5vh;
+}
+
+/* Bubbles Animation */
+@keyframes up {
+    100% {
+        transform: translateY(-120vh);
+    }
+}
