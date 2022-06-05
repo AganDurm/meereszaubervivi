@@ -1,25 +1,3 @@
-html, body {
-    height: auto;
-    padding: 0;
-    margin: 0;
-    min-height: 100%;
-    font-family: 'Sniglet', cursive;
-}
-
-body {
-    height: auto;
-    min-height: 100vh;
-    color: var(--blue);
-    background: #F9D199;
-    filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF84E5DA', endColorstr='#FF2BA4F2');
-    background-size: 100%;
-    position: relative;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    margin: auto;
-}
-
 .ml-md {
     margin-left: .5rem;
 }
@@ -32,4 +10,47 @@ body {
 .mx-md {
     margin-left: .5rem;
     margin-right: .5rem;
+}
+
+.py-5 {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.container {
+    width: 60%;
+    height: auto;
+    padding: 1rem;
+}
+
+.split-2-horizontal {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-flow: row wrap;
+    width: 90%;
+    height: auto;
+    margin: 0 auto;
+}
+
+.split-2-horizontal .first-split, .split-2-horizontal .second-split {
+    width: 45%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-width: 300px;
+}
+
+
+.container div.list {
+    display: flex;
+    justify-content: start;
+    align-items: start;
+    flex-direction: column;
 }

@@ -1,1 +1,10 @@
-
+footer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--footer-bg);
+    text-align: center;
+    min-height: 50vh;
+    margin-top: -.4rem
+}

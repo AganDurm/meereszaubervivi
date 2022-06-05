@@ -1,0 +1,15 @@
+.section-two {
+    background-color: var(--second-section-bg);
+}
+
+.section-two-svg {
+    background-color: var(--third-section-bg);
+}
+
+.pirat-image {
+    width: 90%;
+    height: 400px;
+    background: url("https://cdn2.familie.de/d2/c1/9b/94b5973c94c14d3425dad728fd_YyAxOTkyeDk5Nis2NCsyMDkCcmUgOTUwIDQ3NQNkMTk1MzQ0NGQ3Zg==_girl-and-mother-play-halloween-makeup.jpg") no-repeat center/cover;
+    margin: 2.5rem auto;
+    border-radius: 1rem;
+}

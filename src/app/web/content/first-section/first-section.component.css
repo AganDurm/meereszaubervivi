@@ -1,0 +1,7 @@
+.section-one {
+    background-color: var(--first-section-bg);
+}
+
+.section-one-svg {
+    background-color: var(--second-section-bg);
+}

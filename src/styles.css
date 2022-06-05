@@ -2,7 +2,7 @@
 @import url(https://fonts.googleapis.com/css?family=Sniglet|Raleway:900);
 
 :root {
-    font-size: 16px;
+    font-size: calc(12px + (20 - 12) * ((100vw - 300px) / (1600 - 300)));
     outline: none;
     -webkit-tap-highlight-color: transparent;
     -webkit-user-select: none;
@@ -11,7 +11,14 @@
     user-select: none;
 
     --header-icons-size: 80px;
-    --footer-height: 30vh;
+
+    --footer-bg: #F6E3D4;
+    --first-section-bg: #F6E3D4;
+    --second-section-bg: #FFF;
+    --third-section-bg: #F6E3D4;
+    --fourth-section-bg: #FFF;
+    --fifth-section-bg: #F6E3D4;
+    --sixt-section-bg: #FFF;
 
     --color-dust: #AF540B;
     --sand-main: #FCEEB5;
@@ -24,12 +31,31 @@
     --blue: #1360D7;
 }
 
+html, body {
+    height: auto;
+    padding: 0;
+    margin: 0;
+    min-height: 100%;
+    font-family: 'Sniglet', cursive;
+}
+
+body {
+    position: relative;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    color: var(--blue);
+}
+
+section {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: -.4rem
+}
+
 h1 {
     font-weight: normal;
     font-family: 'Raleway', sans-serif;
-    margin-top: 8%;
-}
-
-h2 {
-    margin-top: 5%;
 }

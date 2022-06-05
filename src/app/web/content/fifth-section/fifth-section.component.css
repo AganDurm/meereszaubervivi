@@ -1,0 +1,14 @@
+.section-fifth {
+    background-color: var(--fifth-section-bg);
+}
+
+.section-fifth-svg {
+    background-color: var(--sixt-section-bg);
+}
+
+.happy-image {
+    width: 200px;
+    height: 200px;
+    background: url("https://www.nicepng.com/png/detail/21-211329_happy-children.png") no-repeat center/cover;
+    border-radius: 1rem;
+}

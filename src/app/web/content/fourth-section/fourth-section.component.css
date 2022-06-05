@@ -1,0 +1,29 @@
+.section-four {
+    background-color: var(--fourth-section-bg);
+}
+
+.section-four-svg {
+    background-color: var(--footer-bg);
+}
+
+.room-image {
+    width: 90%;
+    height: 400px;
+    background: url("https://www.rmv.de/c/fileadmin/_processed_/c/a/csm_Salzgrotte1_f6781ecfa9.jpg") no-repeat center/cover;
+    margin: 2.5rem auto;
+    border-radius: 1rem;
+}
+
+.sea-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 1rem;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmo9ZTLm9ExsR2z1wFzbStNcHwH7v05dCNPg&usqp=CAU") no-repeat center/cover;
+}
+
+.mist-image {
+    width: 100px;
+    height: 100px;
+    border-radius: 1rem;
+    background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSE0vXAxWiwIKqq5XGi6Tm0g5Htg6VeLsyqYQ&usqp=CAU") no-repeat center/cover;
+}
