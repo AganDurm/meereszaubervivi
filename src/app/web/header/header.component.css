@@ -17,7 +17,7 @@ header .logo {
     background: url('src/assets/img/logo/logo-3.png') no-repeat center/cover;
     opacity: .8;
     width: 30%;
-    height: calc(var(--header-icons-size) + 50px);
+    height: calc(var(--header-icons-size) + 20px);
     border-radius: .4rem;
 }
 
