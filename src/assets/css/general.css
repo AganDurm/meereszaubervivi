@@ -10,7 +10,7 @@ body {
     height: auto;
     min-height: 100vh;
     color: var(--blue);
-    background: #F9D199;
+    background: #F6E3D4;
     filter: progid:DXImageTransform.Microsoft.gradient(gradientType=0, startColorstr='#FF84E5DA', endColorstr='#FF2BA4F2');
     background-size: 100%;
     position: relative;

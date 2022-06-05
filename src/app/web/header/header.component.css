@@ -14,15 +14,15 @@ header .logo {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: url('src/assets/img/logo/logo.PNG') no-repeat center/cover;
+    background: url('src/assets/img/logo/logo-3.png') no-repeat center/cover;
     opacity: .8;
-    width: 25%;
-    height: calc(var(--header-icons-size) + 20px);
+    width: 30%;
+    height: calc(var(--header-icons-size) + 50px);
     border-radius: .4rem;
 }
 
 header .menu {
-    width: 30%;
+    width: 25%;
     height: var(--header-icons-size);
     display: flex;
     align-items: center;
@@ -57,27 +57,27 @@ header .menu a div {
 }
 
 header .menu a div.crew {
-    background: transparent url("http://vignette2.wikia.nocookie.net/spongebob/images/3/33/Patrick_Star.svg/revision/latest?cb=20100724183918") no-repeat center/60%;
+    background: transparent url("https://zahnpiratenplus.de/projects/232/images/crew.png") no-repeat center/80%;
 }
 
 header .menu a div.parent {
-    background: transparent url("https://www.pngplay.com/wp-content/uploads/2/Spongebob-Squarepants-Free-PNG.png") no-repeat center/90%;
+    background: transparent url("https://zahnpiratenplus.de/projects/232/images/fuer_eltern.png") no-repeat center/80%;
 }
 
 header .menu a div.rooms {
-    background: transparent url("https://www.clipartmax.com/png/full/48-487257_spongebobs-house-sprite-by-fnaffangamer12-on-deviantart-spongebob-house-clipart.png") no-repeat center/45%;
+    background: transparent url("https://zahnpiratenplus.de/projects/232/images/kontakt.png") no-repeat center/80%;
 }
 
 header .menu a div.price {
-    background: transparent url("src/assets/img/menu/krabby.png") no-repeat bottom/80%;
+    background: transparent url("https://zahnpiratenplus.de/projects/232/images/leistungen.png") no-repeat bottom/80%;
 }
 
 header .menu a div.contact {
-    background: transparent url("src/assets/img/menu/schnecke.png") no-repeat bottom/100%;
+    background: transparent url("https://zahnpiratenplus.de/projects/232/images/kontakt.png") no-repeat bottom/80%;
 }
 
 header .menu a div.sand {
-    background: transparent url("src/assets/img/menu/SVG_Sandy_Cheeks.svg") no-repeat bottom/85%;
+    background: transparent url("https://zahnpiratenplus.de/projects/232/images/praxis.png") no-repeat bottom/80%;
 }
 
 header .menu a span {
