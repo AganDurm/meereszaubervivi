@@ -14,11 +14,11 @@
 
     --footer-bg: #F6E3D4;
     --first-section-bg: #F6E3D4;
-    --second-section-bg: #FFF;
+    --second-section-bg: #006994;
     --third-section-bg: #F6E3D4;
-    --fourth-section-bg: #FFF;
+    --fourth-section-bg: #006994;
     --fifth-section-bg: #F6E3D4;
-    --sixt-section-bg: #FFF;
+    --sixt-section-bg: #006994;
 
     --color-dust: #AF540B;
     --sand-main: #FCEEB5;
@@ -28,7 +28,7 @@
     --water: #9bd0c9;
     --sun-color: #fdc23e;
     --cool: #F90;
-    --blue: #5e2ced;
+    --blue: #006994;
     --blue-old: #1360D7;
 }
 
@@ -39,15 +39,20 @@ html, body {
     min-height: 100%;
     font-family: 'Sniglet', cursive;
 }
-
+html {
+    scroll-behavior: smooth;
+}
 body {
     position: relative;
     width: 100%;
     margin: 0;
     padding: 0;
-    color: var(--blue);
+    color: #fff;
 }
 
+section * {
+    color: var(--blue);
+}
 section {
     position: relative;
     display: flex;

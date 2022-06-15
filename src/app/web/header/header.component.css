@@ -4,7 +4,7 @@
     height: calc(var(--header-icons-size) + 20px);
     margin: 0;
     padding: 5px 0;
-    background: var(--first-section-bg);
+    background: var(--second-section-bg);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -18,6 +18,10 @@ header {
     align-items: center;
     z-index: 1999;
     background: transparent;
+}
+
+header * {
+    color: white !important;
 }
 
 header .logo {

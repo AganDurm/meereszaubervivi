@@ -156,3 +156,12 @@ li a:hover {
 .f_social_icon a + a {
     margin-left: 4px;
 }
+
+.section-two {
+    background-color: var(--second-section-bg);
+}
+
+.section-two-svg {
+    margin-top: -2rem;
+    background-color: var(--first-section-bg) !important;
+}
